@@ -59,7 +59,7 @@ html{
 .inicio{
     background-color: #1e2326;
     background-size: cover;
-    height: 100vh;
+    height: 30vh;
     color: #fff;
     display: flex;
     align-items: center;
@@ -72,6 +72,7 @@ html{
     text-align: center;
     border-radius: 40px;
 }
+
 .inicio .contenido-banner img{
     margin-top: 40px;
     border: 5px solid #1CB698;
@@ -105,64 +106,64 @@ html{
 .inicio .contenido-banner .redes a:hover{
     background-color: #1CB698;
 }
-.sobremi{
+.proy{
     background-color: #1e2326;
     color: #fff;
     padding: 50px 20px;
 }
-.sobremi .contenido-seccion{
+.proy .contenido-seccion{
     max-width: 1100px;
     margin: auto;
 }
-.sobremi h2{
+.proy h2{
     font-size: 48px;
     font-family: 'Righteous';
     text-align: center;
     padding: 20px 0;
 
 }
-.sobremi .contenido-seccion p{
+.proy .contenido-seccion p{
     font: 18px;
     line-height: 22px;
     margin-bottom: 20px;
 }
-.sobremi .contenido-seccion p span{
+.proy .contenido-seccion p span{
     color: #1CB698;
     font-weight: bold;
 }
-.sobremi .fila{
+.proy .fila{
     display: flex;
 }
-.sobremi .fila .col
+.proy .fila .col
 {
     width: 50%;
 }
-.sobremi .fila .col h3{
+.proy .fila .col h3{
     font-size: 28px;
     font-family: 'Righteous';
     margin-bottom: 25px;
 }
-.sobremi .fila .col ul{
+.proy .fila .col ul{
     list-style: none;
 }
-.sobremi .fila .col ul li{
+.proy .fila .col ul li{
     margin: 12px 0;
 }
-.sobremi .fila .col ul li strong{
+.proy .fila .col ul li strong{
     display: inline-block;
     color: #1CB698;
     width: 130px;
 }
-.sobremi .fila .col ul li span{
+.proy .fila .col ul li span{
     background-color: #1CB698;
     padding: 3px;
     border-radius: 5px;
 }
-.sobremi .fila .col .contenedor-intereses{
+.proy .fila .col .contenedor-intereses{
     display: flex;
     flex-wrap: wrap;
 }
-.sobremi .fila .col .contenedor-intereses .interes{
+.proy .fila .col .contenedor-intereses .interes{
     width: 100px;
     height: 100px;
     background-color: #252A2E;
@@ -173,237 +174,28 @@ html{
     align-items: center;
     justify-content: center;
     transition: .3s;
-}.sobremi .fila .col .contenedor-intereses .interes:hover{
+}.proy .fila .col .contenedor-intereses .interes:hover{
     background-color: #1CB698;
 }
-.sobremi .fila .col .contenedor-intereses .interes i{
+.proy .fila .col .contenedor-intereses .interes i{
     font-size: 30px;
     margin-bottom: 10px;
     color: #fff;
 }
 
 
-.sobremi .fila .col button{
+.proy .fila .col button{
     cursor: pointer;
     background-color: transparent;
     border: 0px solid #fff;
     color: #fff;
 }
 
-.sobremi .fila .col .email{
+.proy .fila .col .email{
     background-color: #1e2326;
     
-
-
 }
 
-/* SECCION S K I L L S */
-.skills{
-    background-color: #252A2E;
-    color: #fff;
-    padding: 50px 20px;
-}
-.skills .contenido-seccion{
-    max-width: 1100px;
-    margin: auto;
-}
-.skills h2{
-    font-size: 48px;
-    font-family: 'Righteous';
-    text-align: center;
-    padding: 20px 0;
-
-}
-.skills .fila{
-    display: flex;
-}
-.skills .fila .col{
-    width: 50%;
-    padding: 0 20px;
-}
-.skills .fila .col h3{
-    font-size: 28px;
-    font-family: 'Righteous';
-    margin-bottom: 25px;
-}
-.skills .skill > span{
-    font-weight: bold;
-    display: block;
-    margin-bottom: 10px;
-}
-.skills .skill .barra-skill{
-    height: 8px;
-    width: 80%;
-    background-color: #131517;
-    position: relative;
-    margin-bottom: 30px;
-}
-.skills .skill .progreso{
-    background-color: #1CB698;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 8px;
-}
-.skills .skill .barra-skill span{
-    position: absolute;
-    height: 40px;
-    width: 40px;
-    background-color: #1CB698;
-    border-radius: 50px;
-    line-height: 40px;
-    text-align: center;
-    top: -17px;
-    right: -15px;
-    font-size: 14px;
-}
-/* Estas clases se agregaran dinamicamente mediante javascript */
-.skills .skill .C{
-    width: 0%;
-    animation: 2s C forwards;
-}
-@keyframes C {
-    0%{width: 0%;}
-    100%{width: 75%;}
-}
-
-.skills .skill .htmlcss{
-    width: 0%;
-    animation: 2s htmlcss forwards;
-}
-@keyframes htmlcss {
-    0%{width: 0%;}
-    100%{width: 85%;}
-}
-
-.skills .skill .Java{
-    width: 0%;
-    animation: 2s Java forwards;
-}
-@keyframes Java {
-    0%{width: 0%;}
-    100%{width: 70%;}
-}
-
-.skills .skill .Python{
-    width: 0%;
-    animation: 2s Python forwards;
-}
-@keyframes Python {
-    0%{width: 0%;}
-    100%{width: 80%;}
-}
-
-.skills .skill .MySQL{
-    width: 0%;
-    animation: 2s MySQL forwards;
-}
-@keyframes MySQL {
-    0%{width: 0%;}
-    100%{width: 60%;}
-}
-
-.skills .skill .GitHub{
-    width: 0%;
-    animation: 2s GitHub forwards;
-}
-@keyframes GitHub {
-    0%{width: 0%;}
-    100%{width: 75%;}
-}
-
-.skills .skill .Springboot{
-    width: 0%;
-    animation: 2s Springboot forwards;
-}
-@keyframes Springboot {
-    0%{width: 0%;}
-    100%{width: 45%;}
-}
-
-.skills .skill .API{
-    width: 0%;
-    animation: 2s API forwards;
-}
-@keyframes API {
-    0%{width: 0%;}
-    100%{width: 50%;}
-}
-
-.skills .skill .MavenRES{
-    width: 0%;
-    animation: 2s MavenRES forwards;
-}
-@keyframes MavenRES {
-    0%{width: 0%;}
-    100%{width: 45%;}
-}
-
-.skills .skill .proyect{
-    width: 0%;
-    animation: 2s proyect forwards;
-}
-@keyframes proyect {
-    0%{width: 0%;}
-    100%{width: 94%;}
-}
-/* SECCION CURRICULUM */
-.curriculum{
-    background-color: #1e2326;
-    color: #fff;
-    padding: 50px 20px;
-}
-.curriculum .contenido-seccion{
-    max-width: 1100px;
-    margin: auto;
-}
-.curriculum h2{
-    font-size: 48px;
-    font-family: 'Righteous';
-    text-align: center;
-    padding: 20px 0;
-
-}
-.curriculum .fila{
-    display: flex;
-    justify-content: space-between;
-}
-.curriculum .fila .col{
-    width: 49%;
-    padding: 0 20px;
-}
-
-.curriculum button{
-    cursor: pointer;
-    background-color: transparent;
-    border: 2px solid #fff;
-    width: fit-content;
-    display: block;
-    margin: 20px auto;
-    padding: 10px 22px;
-    font-size: 16px;
-    color: #fff;
-    position: relative;
-    z-index: 10;
-}
-.curriculum button .overlay{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background-color: #1CB698;
-    z-index: -1;
-    transition: 1s;
-}
-.curriculum button:hover .overlay{
-    width: 100%;
-}
-
-.curriculum button .btn{
-    color:#fff;
-    text-decoration: none;
-}
 footer{
     background-color: #252A2E;
     color: #fff;
@@ -445,73 +237,4 @@ footer .arriba{
     border-radius: 50%;
     line-height: 50px;
     font-size: 18px;
-}
-/* SECCION RESPONSIVE */
-@media screen and (max-width:980px){
-    nav{
-        display: none;
-    }
-    .nav-responsive{
-        display: block;
-    }
-    nav.responsive{
-        display: block;
-        position: absolute;
-        right: 0;
-        top: 75px;
-        background-color: #252A2E;
-        width: 180px;
-    }
-    nav.responsive ul{
-        display: block !important;
-    }
-    nav.responsive ul li{
-        border-bottom: 1px solid #fff;
-        padding: 10px 0;
-    }
-}
-@media screen and (max-width:700px){
-    .sobremi .fila{
-        display: block;
-    }
-    .sobremi .fila .col{
-        width: fit-content;
-    }
-
-    .skills .fila{
-        display: block;
-    }
-    .skills .fila .col{
-        width: 100%;
-    }
-    .skills .fila .col .barra-skill{
-        width: 100%;
-    }
-
-    .curriculum .fila{
-        display: block;
-    }
-    .curriculum .fila .col{
-        width: 90%;
-    }
-    .curriculum .fila .derecha{
-        margin-left: 20px;
-    }
-
-    .portfolio .galeria{
-        display: block;
-        width: 100%;
-    }
-    .portfolio .galeria .proyecto{
-        max-width: 100%;
-    }
-    .portfolio .galeria .proyecto img{
-        width: 100%;
-    }
-    .contacto .fila{
-        display: block;
-    }
-    .contacto .fila .col{
-        width: 100%;
-    }
 }
