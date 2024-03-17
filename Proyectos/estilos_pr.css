@@ -73,7 +73,7 @@ html{
     border-radius: 40px;
 }
 
-.inicio .contenido-banner img{
+.inicio .contenido-banner video{
     margin-top: 40px;
     border: 5px solid #1CB698;
     display: block;
@@ -181,7 +181,10 @@ html{
     font-size: 30px;
     margin-bottom: 10px;
     color: #fff;
+    margin: auto;
+    
 }
+
 
 
 .proy .fila .col button{
