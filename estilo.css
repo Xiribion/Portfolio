@@ -273,7 +273,7 @@ html{
 }
 @keyframes htmlcss {
     0%{width: 0%;}
-    100%{width: 85%;}
+    100%{width: 80%;}
 }
 
 .skills .skill .Java{
@@ -282,7 +282,7 @@ html{
 }
 @keyframes Java {
     0%{width: 0%;}
-    100%{width: 70%;}
+    100%{width: 60%;}
 }
 
 .skills .skill .Python{
@@ -291,7 +291,7 @@ html{
 }
 @keyframes Python {
     0%{width: 0%;}
-    100%{width: 80%;}
+    100%{width: 70%;}
 }
 
 .skills .skill .MySQL{
@@ -300,7 +300,7 @@ html{
 }
 @keyframes MySQL {
     0%{width: 0%;}
-    100%{width: 60%;}
+    100%{width: 55%;}
 }
 
 .skills .skill .GitHub{
@@ -309,7 +309,7 @@ html{
 }
 @keyframes GitHub {
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 70%;}
 }
 
 .skills .skill .Springboot{
@@ -327,7 +327,7 @@ html{
 }
 @keyframes API {
     0%{width: 0%;}
-    100%{width: 50%;}
+    100%{width: 30%;}
 }
 
 .skills .skill .MavenRES{
@@ -339,14 +339,6 @@ html{
     100%{width: 45%;}
 }
 
-.skills .skill .proyect{
-    width: 0%;
-    animation: 2s proyect forwards;
-}
-@keyframes proyect {
-    0%{width: 0%;}
-    100%{width: 94%;}
-}
 /* SECCION CURRICULUM */
 .curriculum{
     background-color: #1e2326;
