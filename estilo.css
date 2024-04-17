@@ -316,6 +316,7 @@ html{
     width: 0%;
     animation: 2s Springboot forwards;
 }
+
 @keyframes Springboot {
     0%{width: 0%;}
     100%{width: 45%;}
